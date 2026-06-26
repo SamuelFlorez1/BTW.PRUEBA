@@ -117,7 +117,7 @@ export default function InicioPage() {
               <XAxis type="number" tickFormatter={(v) => formatCOP(v)} tick={{ fontSize: 11, fill: "#9CA3AF" }} />
               <YAxis type="category" dataKey="name" width={90} tick={{ fontSize: 12, fill: "#6B7280" }} />
               <ReTooltip
-                formatter={(value: number) => formatCOP(value)}
+                formatter={(value) => formatCOP(Number(value))}
                 labelStyle={{ color: "#111827", fontWeight: 600 }}
                 contentStyle={{ borderRadius: 8, border: "1px solid #E5E7EB", fontSize: 12 }}
               />
