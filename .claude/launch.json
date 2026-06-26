@@ -1,0 +1,13 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "recauda",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["next", "dev"],
+      "port": 3000,
+      "autoPort": true,
+      "cwd": "C:\\Users\\57305\\Desktop\\Dashboard beta\\recauda-dashboard"
+    }
+  ]
+}
